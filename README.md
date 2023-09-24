@@ -14,6 +14,17 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
+# Initialization
+Start by configuring the CLI.
+```sh-session
+$ chromadb configure
+```
+
+The CLI can use ENV vars as well, just set CHROME_SERVER_HOST and CHROME_SERVER_PORT.
+
+> Note: it does not support authentication as of now. PRs welcome :)
+
 # Commands
 <!-- commands -->
 * [`chromadb collection delete COLLECTION_NAME`](#chromadb-collection-delete-collection_name)
