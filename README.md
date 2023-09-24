@@ -1,4 +1,7 @@
-Basic CLI for [ChromaDB](https://github.com/chroma-core/chroma)
+[![npm version](https://badge.fury.io/js/chromadb-cli.svg)](https://badge.fury.io/js/chromadb-cli)
+
+
+Basic CLI to interact with ChromaDB server [ChromaDB](https://github.com/chroma-core/chroma)
 
 Developed using [oclif](https://github.com/oclif/oclif). For contribution guidelines and development details, head over there.
 
