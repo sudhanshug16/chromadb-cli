@@ -21,7 +21,7 @@ export default class GetCollection extends Command {
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("Fetching collection");
+      ux.action.start("fetching collection");
       const collection = await chroma.getCollection({ name: COLLECTION_NAME });
       ux.action.stop();
 

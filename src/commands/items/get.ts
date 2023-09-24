@@ -25,11 +25,11 @@ export default class GetItem extends Command {
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("Fetching collection");
+      ux.action.start("fetching collection");
       const collection = await chroma.getCollection({ name: COLLECTION_NAME });
       ux.action.stop();
 
-      ux.action.start("Fetching item");
+      ux.action.start("fetching item");
       const item = await collection.get({
         ids: [ITEM_ID],
       });

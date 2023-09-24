@@ -29,11 +29,11 @@ export default class PeekItems extends Command {
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("Fetching collection");
+      ux.action.start("fetching collection");
       const collection = await chroma.getCollection({ name: COLLECTION_NAME });
       ux.action.stop();
 
-      ux.action.start(`Fetching ${limit} items`);
+      ux.action.start(`fetching ${limit} items`);
       const items = await collection.peek({ limit });
       ux.action.stop();
 

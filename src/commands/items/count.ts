@@ -21,11 +21,11 @@ export default class CountItems extends Command {
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("Fetching collection");
+      ux.action.start("fetching collection");
       const collection = await chroma.getCollection({ name: COLLECTION_NAME });
       ux.action.stop();
 
-      ux.action.start("Counting items");
+      ux.action.start("counting items");
       const count = await collection.count();
       ux.action.stop();
 

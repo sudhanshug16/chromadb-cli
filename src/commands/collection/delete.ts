@@ -26,7 +26,7 @@ export default class DeleteCollection extends Command {
       ux.action.stop();
 
       this.log();
-      this.log("Successfully deleted the collection");
+      this.log("successfully deleted the collection");
     } catch (error: unknown) {
       this.error(error as Error);
     }

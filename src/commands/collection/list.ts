@@ -10,7 +10,7 @@ export default class ListCollections extends Command {
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("Fetching all collections");
+      ux.action.start("fetching all collections");
       const collections = await chroma.listCollections();
       ux.action.stop();
 
