@@ -199,6 +199,7 @@ _See code: [dist/commands/items/peek.ts](https://github.com/sudhanshug16/chromad
 # Table of contents
 <!-- toc -->
 * [Usage](#usage)
+* [Initialization](#initialization)
 * [Commands](#commands)
 * [Table of contents](#table-of-contents)
 <!-- tocstop -->
