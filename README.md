@@ -1,5 +1,7 @@
 Basic CLI for [ChromaDB](https://github.com/chroma-core/chroma)
 
+Developed using [oclif](https://github.com/oclif/oclif). For contribution guidelines and development details, head over there.
+
 # Usage
 <!-- usage -->
 ```sh-session
