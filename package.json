@@ -1,6 +1,6 @@
 {
   "name": "chromadb-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CLI for chromadb",
   "author": "Sudhanshu Gautam @sudhanshug16",
   "bin": {
