@@ -2,7 +2,7 @@ import { Args, Command, Flags, ux } from "@oclif/core";
 import { getChromaClient } from "../../utils/chromadb";
 
 export default class PeekItems extends Command {
-  static description = "count items in a collection from the chroma server";
+  static description = "count items in a collection";
 
   static examples = ["<%= config.bin %> <%= command.id %>"];
 

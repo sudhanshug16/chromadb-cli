@@ -1,8 +1,8 @@
 import { Args, Command, ux } from "@oclif/core";
 import { getChromaClient } from "../../utils/chromadb";
 
-export default class GetCollection extends Command {
-  static description = "get a collection from the chroma server";
+export default class DeleteCollection extends Command {
+  static description = "delete a collection";
 
   static examples = ["<%= config.bin %> <%= command.id %>"];
 
@@ -16,17 +16,17 @@ export default class GetCollection extends Command {
   public async run(): Promise<void> {
     const {
       args: { COLLECTION_NAME },
-    } = await this.parse(GetCollection);
+    } = await this.parse(DeleteCollection);
 
     const chroma = await getChromaClient(this);
 
     try {
-      ux.action.start("fetching collection");
-      const collection = await chroma.getCollection({ name: COLLECTION_NAME });
+      ux.action.start("deleting collection");
+      await chroma.deleteCollection({ name: COLLECTION_NAME });
       ux.action.stop();
 
       this.log();
-      this.logJson(collection);
+      this.log("successfully deleted the collection");
     } catch (error: unknown) {
       this.error(error as Error);
     }

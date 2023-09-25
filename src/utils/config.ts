@@ -4,7 +4,7 @@ import * as path from "node:path";
 
 const CONFIG_FILE_PATH = path.join(os.homedir(), ".chromadb-cli.json");
 
-export const configKeys = ["HOST", "PORT", "IMPL"] as const;
+export const configKeys = ["HOST", "PORT", "IMPL", "OPENAI_KEY"] as const;
 export type ConfigKeyType = (typeof configKeys)[number];
 
 export function getConfig(key: ConfigKeyType): string | null {

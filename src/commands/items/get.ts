@@ -2,7 +2,7 @@ import { Args, Command, ux } from "@oclif/core";
 import { getChromaClient } from "../../utils/chromadb";
 
 export default class GetItem extends Command {
-  static description = "get item in a collection from the chroma server";
+  static description = "get item in a collection";
 
   static examples = ["<%= config.bin %> <%= command.id %>"];
 
