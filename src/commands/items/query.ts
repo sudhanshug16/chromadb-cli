@@ -44,17 +44,18 @@ export default class QueryItems extends Command {
     } = await this.parse(QueryItems);
 
     const chroma = await getChromaClient(this);
-    let embedding: number[];
+    let queryEmbeddings: number[][];
+    const input = TEXT.split(",");
 
     try {
       if (provider === "openai") {
         const openai = await getOpenAIClient(this);
         ux.action.start("converting the query text into embedding");
         const response = await openai.embeddings.create({
-          input: TEXT,
-          model: model,
+          input,
+          model,
         });
-        embedding = response.data[0].embedding;
+        queryEmbeddings = response.data.map((datum) => datum.embedding);
         ux.action.stop();
       } else {
         this.error("Invalid provider supplied");
@@ -66,7 +67,7 @@ export default class QueryItems extends Command {
 
       ux.action.start(`querying items`);
       const items = await collection.query({
-        queryEmbeddings: embedding,
+        queryEmbeddings,
         nResults: limit,
       });
       ux.action.stop();
