@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/chromadb-cli.svg)](https://badge.fury.io/js/chromadb-cli)
+[![npm version](https://badgen.net/npm/v/chromadb-cli)](https://badge.fury.io/js/chromadb-cli)
 
 
 Basic CLI to interact with ChromaDB server [ChromaDB](https://github.com/chroma-core/chroma)
@@ -12,7 +12,7 @@ $ npm install -g chromadb-cli
 $ chromadb COMMAND
 running command...
 $ chromadb (--version)
-chromadb-cli/0.1.0 darwin-arm64 node-v18.16.0
+chromadb-cli/0.1.2 darwin-arm64 node-v18.16.0
 $ chromadb --help [COMMAND]
 USAGE
   $ chromadb COMMAND
@@ -61,7 +61,7 @@ EXAMPLES
   $ chromadb collections delete
 ```
 
-_See code: [dist/commands/collections/delete.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/collections/delete.ts)_
+_See code: [dist/commands/collections/delete.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/collections/delete.ts)_
 
 ## `chromadb collections get COLLECTION_NAME`
 
@@ -81,7 +81,7 @@ EXAMPLES
   $ chromadb collections get
 ```
 
-_See code: [dist/commands/collections/get.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/collections/get.ts)_
+_See code: [dist/commands/collections/get.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/collections/get.ts)_
 
 ## `chromadb collections list`
 
@@ -98,7 +98,7 @@ EXAMPLES
   $ chromadb collections list
 ```
 
-_See code: [dist/commands/collections/list.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/collections/list.ts)_
+_See code: [dist/commands/collections/list.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/collections/list.ts)_
 
 ## `chromadb configure`
 
@@ -112,7 +112,7 @@ DESCRIPTION
   set configuration for the chromadb server
 ```
 
-_See code: [dist/commands/configure.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/configure.ts)_
+_See code: [dist/commands/configure.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/configure.ts)_
 
 ## `chromadb help [COMMANDS]`
 
@@ -152,7 +152,7 @@ EXAMPLES
   $ chromadb items count
 ```
 
-_See code: [dist/commands/items/count.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/items/count.ts)_
+_See code: [dist/commands/items/count.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/items/count.ts)_
 
 ## `chromadb items get COLLECTION_NAME ITEM_ID`
 
@@ -173,7 +173,7 @@ EXAMPLES
   $ chromadb items get
 ```
 
-_See code: [dist/commands/items/get.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/items/get.ts)_
+_See code: [dist/commands/items/get.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/items/get.ts)_
 
 ## `chromadb items peek COLLECTION_NAME`
 
@@ -196,7 +196,7 @@ EXAMPLES
   $ chromadb items peek
 ```
 
-_See code: [dist/commands/items/peek.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/items/peek.ts)_
+_See code: [dist/commands/items/peek.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/items/peek.ts)_
 
 ## `chromadb items query COLLECTION_NAME TEXT`
 
@@ -225,7 +225,7 @@ EXAMPLES
   $ chromadb items query
 ```
 
-_See code: [dist/commands/items/query.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.0/dist/commands/items/query.ts)_
+_See code: [dist/commands/items/query.ts](https://github.com/sudhanshug16/chromadb-cli/blob/v0.1.2/dist/commands/items/query.ts)_
 
 ## `chromadb update [CHANNEL]`
 
