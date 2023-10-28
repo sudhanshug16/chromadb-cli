@@ -16,13 +16,13 @@ dependencies:
     version: 3.2.3(@types/node@16.18.53)(typescript@4.9.5)
   chromadb:
     specifier: ^1.5.11
-    version: 1.5.11(openai@4.10.0)
+    version: 1.5.11(openai@4.14.1)
   keytar:
     specifier: ^7.9.0
     version: 7.9.0
   openai:
-    specifier: ^4.10.0
-    version: 4.10.0
+    specifier: ^4.14.1
+    version: 4.14.1
 
 devDependencies:
   '@oclif/test':
@@ -945,7 +945,7 @@ packages:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
     dev: false
 
-  /chromadb@1.5.11(openai@4.10.0):
+  /chromadb@1.5.11(openai@4.14.1):
     resolution: {integrity: sha512-mIg0DtWZFsf4hl05orRixIw3lBYKUc4AGydbUQVwd7sjwaCsgP1j0qHwYxoopj2H1L7yc8OUyFKhi79MoFMoMQ==}
     engines: {node: '>=14.17.0'}
     peerDependencies:
@@ -958,7 +958,7 @@ packages:
         optional: true
     dependencies:
       isomorphic-fetch: 3.0.0
-      openai: 4.10.0
+      openai: 4.14.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -2349,8 +2349,8 @@ packages:
       mimic-fn: 2.1.0
     dev: false
 
-  /openai@4.10.0:
-    resolution: {integrity: sha512-II4b5/7qzwYkqA9MSjgqdofCc798EW+dtF2h6qNaVLet+qO7FShAJTWnoyzb50J4ZH1rPxRFAsmDLIhY3PT6DQ==}
+  /openai@4.14.1:
+    resolution: {integrity: sha512-aBb7DVdzSnEUBFHTbnVoitauefvjRuUHS5pa7lm1m5JmHifD+1Hff1RzxYC12ogugVcCmWT99NZNfzyD6n/0IQ==}
     hasBin: true
     dependencies:
       '@types/node': 18.17.19
@@ -2361,6 +2361,7 @@ packages:
       form-data-encoder: 1.7.2
       formdata-node: 4.4.1
       node-fetch: 2.7.0
+      web-streams-polyfill: 3.2.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -3093,6 +3094,11 @@ packages:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
     dependencies:
       defaults: 1.0.4
+    dev: false
+
+  /web-streams-polyfill@3.2.1:
+    resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
+    engines: {node: '>= 8'}
     dev: false
 
   /web-streams-polyfill@4.0.0-beta.3:
