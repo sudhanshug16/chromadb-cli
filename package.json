@@ -22,7 +22,7 @@
     "@oclif/plugin-update": "^3.2.3",
     "chromadb": "^1.5.11",
     "keytar": "^7.9.0",
-    "openai": "^4.10.0"
+    "openai": "^4.15.0"
   },
   "devDependencies": {
     "@oclif/test": "^2.5.6",
