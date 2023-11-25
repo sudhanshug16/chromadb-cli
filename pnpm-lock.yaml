@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@oclif/core':
     specifier: ^2.15.0
-    version: 2.15.0(@types/node@16.18.53)(typescript@4.9.5)
+    version: 2.15.0(@types/node@16.18.65)(typescript@4.9.5)
   '@oclif/plugin-help':
     specifier: ^5.2.19
-    version: 5.2.19(@types/node@16.18.53)(typescript@4.9.5)
+    version: 5.2.19(@types/node@16.18.65)(typescript@4.9.5)
   '@oclif/plugin-update':
     specifier: ^3.2.3
-    version: 3.2.3(@types/node@16.18.53)(typescript@4.9.5)
+    version: 3.2.3(@types/node@16.18.65)(typescript@4.9.5)
   chromadb:
     specifier: ^1.5.11
     version: 1.5.11(openai@4.10.0)
@@ -27,7 +27,7 @@ dependencies:
 devDependencies:
   '@oclif/test':
     specifier: ^2.5.6
-    version: 2.5.6(@types/node@16.18.53)(typescript@4.9.5)
+    version: 2.5.6(@types/node@16.18.65)(typescript@4.9.5)
   '@types/chai':
     specifier: ^4
     version: 4.0.0
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^9.0.0
     version: 9.0.0
   '@types/node':
-    specifier: ^16.18.53
-    version: 16.18.53
+    specifier: ^16.18.65
+    version: 16.18.65
   chai:
     specifier: ^4
     version: 4.0.0
@@ -63,7 +63,7 @@ devDependencies:
     version: 0.3.4
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@16.18.53)(typescript@4.9.5)
+    version: 10.9.1(@types/node@16.18.65)(typescript@4.9.5)
   tslib:
     specifier: ^2.6.2
     version: 2.6.2
@@ -393,7 +393,7 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  /@oclif/core@2.15.0(@types/node@16.18.53)(typescript@4.9.5):
+  /@oclif/core@2.15.0(@types/node@16.18.65)(typescript@4.9.5):
     resolution: {integrity: sha512-fNEMG5DzJHhYmI3MgpByTvltBOMyFcnRIUMxbiz2ai8rhaYgaTHMG3Q38HcosfIvtw9nCjxpcQtC8MN8QtVCcA==}
     engines: {node: '>=14.0.0'}
     dependencies:
@@ -420,7 +420,7 @@ packages:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.1(@types/node@16.18.53)(typescript@4.9.5)
+      ts-node: 10.9.1(@types/node@16.18.65)(typescript@4.9.5)
       tslib: 2.6.2
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -431,11 +431,11 @@ packages:
       - '@types/node'
       - typescript
 
-  /@oclif/plugin-help@5.2.19(@types/node@16.18.53)(typescript@4.9.5):
+  /@oclif/plugin-help@5.2.19(@types/node@16.18.65)(typescript@4.9.5):
     resolution: {integrity: sha512-gf6/dFtzMJ8RA4ovlBCBGJsZsd4jPXhYWJho+Gh6KmA+Ev9LupoExbE0qT+a2uHJyHEvIg4uX/MBW3qdERD/8g==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.15.0(@types/node@16.18.53)(typescript@4.9.5)
+      '@oclif/core': 2.15.0(@types/node@16.18.65)(typescript@4.9.5)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -443,11 +443,11 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/plugin-update@3.2.3(@types/node@16.18.53)(typescript@4.9.5):
+  /@oclif/plugin-update@3.2.3(@types/node@16.18.65)(typescript@4.9.5):
     resolution: {integrity: sha512-JVKwp4ysG9GU4RmG59MZYMunz8onRI+wEQzJThyYkUFd0VfZviYt2FHsyoNtxi30l0tInC8APgKp1pCCO4e+FQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.15.0(@types/node@16.18.53)(typescript@4.9.5)
+      '@oclif/core': 2.15.0(@types/node@16.18.65)(typescript@4.9.5)
       chalk: 4.1.2
       cross-spawn: 7.0.3
       debug: 4.3.4(supports-color@8.1.1)
@@ -467,11 +467,11 @@ packages:
       - typescript
     dev: false
 
-  /@oclif/test@2.5.6(@types/node@16.18.53)(typescript@4.9.5):
+  /@oclif/test@2.5.6(@types/node@16.18.65)(typescript@4.9.5):
     resolution: {integrity: sha512-AcusFApdU6/akXaofhBDrY4IM9uYzlOD9bYCCM0NwUXOv1m6320hSp2DT/wkj9H1gsvKbJXZHqgtXsNGZTWLFg==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.15.0(@types/node@16.18.53)(typescript@4.9.5)
+      '@oclif/core': 2.15.0(@types/node@16.18.65)(typescript@4.9.5)
       fancy-test: 2.0.42
     transitivePeerDependencies:
       - '@swc/core'
@@ -500,7 +500,7 @@ packages:
   /@types/cli-progress@3.11.2:
     resolution: {integrity: sha512-Yt/8rEJalfa9ve2SbfQnwFHrc9QF52JIZYHW3FDaTMpkCvnns26ueKiPHDxyJ0CS//IqjMINTx7R5Xa7k7uFHQ==}
     dependencies:
-      '@types/node': 16.18.53
+      '@types/node': 16.18.65
 
   /@types/json-schema@7.0.13:
     resolution: {integrity: sha512-RbSSoHliUbnXj3ny0CNFOoxrIDV6SUGyStHsvDqosw6CkdPV8TtWGlfecuK4ToyMEAql6pzNxgCFKanovUzlgQ==}
@@ -517,12 +517,12 @@ packages:
   /@types/node-fetch@2.6.6:
     resolution: {integrity: sha512-95X8guJYhfqiuVVhRFxVQcf4hW/2bCuoPwDasMf/531STFoNoWTT7YDnWdXHEZKqAGUigmpG31r2FE70LwnzJw==}
     dependencies:
-      '@types/node': 16.18.53
+      '@types/node': 16.18.65
       form-data: 4.0.0
     dev: false
 
-  /@types/node@16.18.53:
-    resolution: {integrity: sha512-vVmHeo4tpF8zsknALU90Hh24VueYdu45ZlXzYWFbom61YR4avJqTFDC3QlWzjuTdAv6/3xHaxiO9NrtVZXrkmw==}
+  /@types/node@16.18.65:
+    resolution: {integrity: sha512-5E9WgTy95B7i90oISjui9U5Zu7iExUPfU4ygtv4yXEy6zJFE3oQYHCnh5H1jZRPkjphJt2Ml3oQW6M0qtK534A==}
 
   /@types/node@18.17.19:
     resolution: {integrity: sha512-+pMhShR3Or5GR0/sp4Da7FnhVmTalWm81M6MkEldbwjETSaPalw138Z4KdpQaistvqQxLB7Cy4xwYdxpbSOs9Q==}
@@ -1522,7 +1522,7 @@ packages:
     dependencies:
       '@types/chai': 4.0.0
       '@types/lodash': 4.14.199
-      '@types/node': 16.18.53
+      '@types/node': 16.18.65
       '@types/sinon': 10.0.16
       lodash: 4.17.21
       mock-stdin: 1.0.0
@@ -2956,7 +2956,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
 
-  /ts-node@10.9.1(@types/node@16.18.53)(typescript@4.9.5):
+  /ts-node@10.9.1(@types/node@16.18.65)(typescript@4.9.5):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -2975,7 +2975,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 16.18.53
+      '@types/node': 16.18.65
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
